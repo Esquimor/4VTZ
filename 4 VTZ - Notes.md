@@ -147,4 +147,41 @@ Host Profiles: Gestions plus facile de l'ESXi hosts
 
 ### VCenter Server
 
-Point central de l'administration de l'infrastructure
+Point central de l'administration de l'infrastructure: Service sur Windows/Windows Server
+
+##### vCenter Server DB: Composant major => vCenter Database
+
+- Maintien les status de l'infrastructure
+- Configurer à l'installation de vCenter
+- Local/Remote
+
+##### SSO (Single Sign On)
+
+Possibilité de faire du SSO => utilise Windows ADDS
+
+1. Loger avec name/password
+2. Passe par SSO
+3. SSO valide => token
+4. Token d'identification pour les services
+
+
+
+vCenter demande une liste de prérequis pour son installation
+
+Phase majeur d'installation:
+
+1. Installer vCenter Server
+2. Ajout vCenter Database créer précédement
+3. vCenter login
+4. Installation par défault Oui/non
+5. 1 vCenter ou group
+6. Choix du port
+7. Install
+8. Finish
+
+Après installation faire les configurations nécessaires
+
+### VSphere Licensing
+
+- Clef License
+- Sur les per-processor => illimité cores par processor
